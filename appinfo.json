@@ -1,0 +1,54 @@
+{
+    "appKeys": {
+        "INVERT": 0,
+        "KEY_CONDITIONS": 2,
+        "KEY_TEMPERATURE": 1
+    },
+    "capabilities": [
+        "location",
+        "configurable"
+    ],
+    "companyName": "josefcit",
+    "longName": "Cool Minimal",
+    "projectType": "native",
+    "resources": {
+        "media": [
+            {
+                "file": "images/charging_long.png",
+                "name": "BATTERY_CHARGE",
+                "type": "png"
+            },
+            {
+                "file": "images/white_line_long.png",
+                "name": "BATTERY_NORMAL",
+                "type": "png"
+            },
+            {
+                "characterRegex": "[MTWFSondayueshrit]",
+                "file": "fonts/LondonMM.ttf",
+                "name": "FONT_DATE_THIN_30",
+                "type": "font"
+            },
+            {
+                "characterRegex": "[0-9A-Za-z, ]",
+                "file": "fonts/LondonBetween.ttf",
+                "name": "FONT_DATE_20",
+                "type": "font"
+            },
+            {
+                "characterRegex": "[0-9:]",
+                "file": "fonts/Steinerlight.ttf",
+                "name": "FONT_THIN_45",
+                "type": "font"
+            }
+        ]
+    },
+    "sdkVersion": "2",
+    "shortName": "Cool Minimal",
+    "uuid": "4bd594d6-07fd-4cc7-b08e-40a65a7a9a5c",
+    "versionCode": 1,
+    "versionLabel": "1.3",
+    "watchapp": {
+        "watchface": true
+    }
+}
