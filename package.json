@@ -1,0 +1,58 @@
+{
+  "name": "CoolMinimal",
+  "author": "jcit",
+  "version": "2.0.0",
+  "keywords": ["pebble-app"],
+  "private": true,
+  "dependencies": {},
+  "pebble": {
+    "displayName": "CoolMinimal",
+    "uuid": "4bd594d6-07fd-4cc7-b08e-40a65a7a9a5c",
+    "sdkVersion": "3",
+    "enableMultiJS": true,
+    "targetPlatforms": [
+      "aplite",
+      "basalt",
+      "chalk",
+      "diorite"
+    ],
+    "watchapp": {
+      "watchface": true
+    },
+    "messageKeys": [
+      "Temperature",
+      "Conditions"
+    ],
+    "resources": {
+      "media": [{
+          "file": "images/charging_long.png",
+          "name": "BATTERY_CHARGE",
+          "type": "png"
+        },
+        {
+          "file": "images/white_line_long.png",
+          "name": "BATTERY_NORMAL",
+          "type": "png"
+        },
+        {
+          "characterRegex": "[MTWFSondayueshrit]",
+          "file": "fonts/LondonMM.ttf",
+          "name": "FONT_DATE_THIN_30",
+          "type": "font"
+        },
+        {
+          "characterRegex": "[0-9A-Za-z, ]",
+          "file": "fonts/LondonBetween.ttf",
+          "name": "FONT_DATE_20",
+          "type": "font"
+        },
+        {
+          "characterRegex": "[0-9:]",
+          "file": "fonts/Steinerlight.ttf",
+          "name": "FONT_THIN_45",
+          "type": "font"
+        }
+      ]
+    }
+  }
+}

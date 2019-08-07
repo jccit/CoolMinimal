@@ -4,22 +4,22 @@ Pebble.addEventListener('ready',
   }
 );
 
-Pebble.addEventListener('showConfiguration', function(e) {
-  Pebble.openURL('http://josefcit.uk/projects/pebble/min.html');
-});
+// Pebble.addEventListener('showConfiguration', function(e) {
+//   Pebble.openURL('http://josefcit.uk/projects/pebble/min.html');
+// });
 
 Pebble.addEventListener('appmessage',
   function(e) {
     console.log("AppMessage received!");
     getWeather();
-  }                     
+  }
 );
 
 Pebble.addEventListener('webviewclosed',
   function(e) {
     var config = JSON.parse(decodeURIComponent(e.response));
     console.log('Configuration window returned: ', JSON.stringify(config));
-    
+
     Pebble.sendAppMessage( { '0': config.invert },
       function(e) {
         console.log('Successfully delivered message: ' + e.data.transactionId);
