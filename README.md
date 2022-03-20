@@ -1,4 +1,8 @@
 # CoolMinimal
-A simple watchface for the Pebble Smartwatch. The first watchface I ever made. 
+A simple watchface for the Pebble Smartwatch. The first watchface I ever made.
 
-[![Download on the Pebble App Store](http://pblweb.com/badge/54e27ee37d67db4a7a000012/orange/large/)](https://apps.getpebble.com/applications/54e27ee37d67db4a7a000012)
+Originally written for SDK 2 and the original Pebble using CloudPebble, I've since updated it to SDK 4 and begun supporting newer Pebbles.
+
+The original code before being uploaded to GitHub is in the `original` branch
+
+TODO: Upload to Rebble store
