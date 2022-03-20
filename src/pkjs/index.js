@@ -8,6 +8,7 @@ Pebble.addEventListener('ready',
 //   Pebble.openURL('http://josefcit.uk/projects/pebble/min.html');
 // });
 
+/*
 Pebble.addEventListener('appmessage',
   function(e) {
     console.log("AppMessage received!");
@@ -89,3 +90,4 @@ function getWeather() {
     {timeout: 15000, maximumAge: 60000}
   );
 }
+*/
