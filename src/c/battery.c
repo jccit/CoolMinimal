@@ -42,3 +42,12 @@ void DrawBattery() {
   BatteryChargeState charge_state = battery_state_service_peek();
   RefreshBattery(charge_state);
 }
+
+void UpdateBatteryFrame(GRect screen_bounds) {
+  int height = screen_bounds.size.h;
+  int bar_size = 2;
+
+  Layer* layer = bitmap_layer_get_layer(image_layer_battery);
+  GRect existing_frame = layer_get_frame(layer);
+  layer_set_frame(layer, GRect(0, height-bar_size, existing_frame.size.w, existing_frame.size.h));
+}

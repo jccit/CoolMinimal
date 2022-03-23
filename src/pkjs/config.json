@@ -1,0 +1,29 @@
+[
+    {
+        "type": "heading",
+        "defaultValue": "Cool Minimal"
+    },
+    {
+        "type": "section",
+        "items": [
+            {
+                "type": "heading",
+                "defaultValue": "Weather"
+            },
+            {
+                "type": "toggle",
+                "messageKey": "EnableWeather",
+                "label": "Enable Weather"
+            },
+            {
+                "type": "input",
+                "messageKey": "Key",
+                "label": "OpenWeatherMap API Key"
+            }
+        ]
+    },
+    {
+        "type": "submit",
+        "defaultValue": "Save"
+    }
+]

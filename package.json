@@ -2,18 +2,21 @@
   "name": "CoolMinimal",
   "author": "jcit",
   "version": "2.0.0",
-  "keywords": ["pebble-app"],
+  "keywords": [
+    "pebble-app"
+  ],
   "private": true,
-  "dependencies": {},
+  "dependencies": {
+    "pebble-clay": "^1.0.4"
+  },
   "pebble": {
-    "displayName": "CoolMinimal",
+    "displayName": "Cool Minimal",
     "uuid": "4bd594d6-07fd-4cc7-b08e-40a65a7a9a5c",
     "sdkVersion": "3",
     "enableMultiJS": true,
     "targetPlatforms": [
       "aplite",
       "basalt",
-      "chalk",
       "diorite"
     ],
     "watchapp": {
@@ -21,10 +24,13 @@
     },
     "messageKeys": [
       "Temperature",
-      "Conditions"
+      "Conditions",
+      "EnableWeather",
+      "Key"
     ],
     "resources": {
-      "media": [{
+      "media": [
+        {
           "file": "images/charging_long.png",
           "name": "BATTERY_CHARGE",
           "type": "png"

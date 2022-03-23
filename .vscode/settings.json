@@ -1,9 +1,12 @@
 {
     "files.associations": {
+        "*.module": "php",
         "battery.h": "c",
         "watch.h": "c",
         "pebble-assist.h": "c",
         "pebble.h": "c",
-        "pebble_sdk_version.h": "c"
+        "pebble_sdk_version.h": "c",
+        "resource_ids.auto.h": "c",
+        "message_keys.auto.h": "c"
     }
 }
